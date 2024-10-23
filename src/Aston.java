@@ -1,3 +1,4 @@
+
 //Задание 1
 
 public class Aston {
@@ -110,9 +111,7 @@ public class Aston {
 
 public class Aston {
     public static void main(String[] args) {
-
         System.out.println(isLeapYear(2024));
-        System.out.println(isLeapYear(1996));
         System.out.println(isLeapYear(2000));
     }
 
@@ -133,9 +132,6 @@ public class Aston {
         }
     }
 }
-
-
-
     public static boolean isLeapYear(int year) {
         if (year % 4 == 0) {
             if (year % 100 == 0) {
@@ -153,13 +149,9 @@ public class Aston {
 public class Aston {
     public static void main(String[] args) {
         int[] myArray = new int[101];
-
-        // Заполнение массива числами от 0 до 99
         for (int i = 0; i < myArray.length; i++) {
             myArray[i] = i;
         }
-
-        // Вывод всех значений массива
         for (int i = 0; i < myArray.length; i++) {
             System.out.println(myArray[i]);
         }
@@ -171,15 +163,11 @@ public class Aston {
 public class Aston {
     public static void main(String[] args) {
         int[] myArray  = {1, 5, 3, 2, 11, 4, 5, 2, 4, 8, 9, 1};
-
-        // Проход по массиву и умножение чисел меньше 6 на 2
         for (int i = 0; i < myArray.length; i++) {
             if (myArray[i] < 6) {
                 myArray[i] = myArray[i] * 2;
             }
         }
-
-        // Вывод измененного массива
         for (int i = 0; i < myArray.length; i++) {
             System.out.println(myArray[i]);
         }
@@ -190,20 +178,16 @@ public class Aston {
 
 public class Aston {
     public static void main(String[] args) {
-        int size = 5; // Размер массива
+        int size = 5;
         int[][] myArray = new int[size][size];
-
-        // Заполнение массива: 1 по диагонали, остальные элементы 0
         for (int i = 0; i < size; i++) {
             myArray[i][i] = 1;
         }
-
-        // Вывод массива
         for (int i = 0; i < size; i++) {
             for (int j = 0; j < size; j++) {
                 System.out.print(myArray[i][j] + " ");
             }
-            System.out.println(); // Перевод строки для следующей строки массива
+            System.out.println();
         }
     }
 }
