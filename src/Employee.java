@@ -17,7 +17,7 @@ public class Employee {
 
     @Override
     public String toString() {
-        return "Employee: Name=" + name + "\n" + "Job=" + job + "\n" + "Email=" + mail + "\n" + "Phone=" + phone + "\n" + "Salary=" + salary + "\n" + "Age=" + age ;
+        return "Employee: Name:" + name + "\n" + "Job:" + job + "\n" + "Email:" + mail + "\n" + "Phone:" + phone + "\n" + "Salary:" + salary + "\n" + "Age:" + age ;
     }
 
     public static void main(String[] args) {
