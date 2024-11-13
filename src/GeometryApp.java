@@ -93,7 +93,7 @@ class Triangle implements Shape {
 
     @Override
     public double calculateArea() {
-        double s = calculatePerimeter() / 2; // Полупериметр
+        double s = calculatePerimeter() / 2;
         return Math.sqrt(s * (s - sideA) * (s - sideB) * (s - sideC));
     }
 
@@ -108,7 +108,7 @@ class Triangle implements Shape {
     }
 }
 
-public class GeometryApp { // Измененное имя класса
+public class GeometryApp {
     public static void main(String[] args) {
         Shape circle = new Circle(5.0, "Красный", "Черный");
         Shape rectangle = new Rectangle(4.0, 6.0, "Синий", "Зеленый");
